@@ -69,7 +69,7 @@ JSON has exactly **six value types** — no more, no less.
 }
 ```
 
-> ⚠️ **Common mistake:** Adding a trailing comma after the last key-value pair. This is the #1 JSON syntax error. Use [jsonlint.com](https://jsonlint.com) to validate instantly.
+> ⚠️ **Common mistake:** Adding a trailing comma after the last key-value pair. This is the #1 JSON syntax error. Use [jsonlint.com](https://jsonlint.com) to validate instantly. bash: node -e "JSON.parse(require('fs').readFileSync('./config.json','utf8'))" && echo "✓ Valid"
 
 ---
 
